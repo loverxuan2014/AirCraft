@@ -24,6 +24,7 @@ export default class Player extends cc.Component {
 
         //³õÊ¼»¯Åö×²¼ì²â¿ªÆô
         cc.director.getCollisionManager().enabled = true;
+
     }
 
     //update(dt) {}

@@ -11,7 +11,7 @@ export default class Enemy extends cc.Component {
 
     update(dt) {
         this.node.y -= this.enemySpeed * dt;
-        if (this.node.y < 870) {
+        if (this.node.y < -10) {
             this.node.destroy();
         }
     }

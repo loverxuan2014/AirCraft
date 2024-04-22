@@ -3,10 +3,11 @@
     "",
     "\\assets",
     "\\assets\\scripts",
-    "\\assets\\scripts\\bullet",
+    "\\assets\\scripts\\Bullet",
+    "\\assets\\scripts\\Manager",
     "\\assets\\scripts\\Map",
     "\\assets\\scripts\\Role"
   ],
-  "SelectedNode": "\\assets\\scripts\\Role\\Enemy.ts",
+  "SelectedNode": "\\assets\\scripts\\Bullet\\Bullet.ts",
   "PreviewInSolutionExplorer": false
 }

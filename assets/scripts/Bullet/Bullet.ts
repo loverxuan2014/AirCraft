@@ -6,6 +6,7 @@ const {ccclass, property} = cc._decorator;
 export default class Bullet extends cc.Component {
     @property
     bulletSpeed: number = 600;
+    bulletAudio: cc.AudioClip = null;
 
     //start() {}
 
@@ -23,6 +24,7 @@ export default class Bullet extends cc.Component {
         //如果碰到的是敌人，1.让敌人死亡，2.销毁子弹
         if (clooisionThing.tag == 10) {
             clooisionThing.getComponent(Enemy).die();
+            //敌人停止移动
             clooisionThing.getComponent(Enemy).enemySpeed = 0;
             this.node.destroy();
         }
